@@ -1,0 +1,29 @@
+{
+  "name": "ziboexe",
+  "version": "1.0.0",
+  "description": "Esercizi stupidini che mi fa fare zibo, my master",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node index.js",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jackallo/ziboexe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jackallo/ziboexe/issues"
+  },
+  "homepage": "https://github.com/Jackallo/ziboexe#readme",
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "@types/readline-sync": "^1.4.3",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
